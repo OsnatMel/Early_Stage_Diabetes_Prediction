@@ -12,14 +12,14 @@ https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dat
 Import dataset in csv format to pandas dataframe.
 
 ### EDA
-Conducting basic exploratory data analysis in order to have am initial understanding on data quality and integrity.
-The following charecterizations of the data are explored by a function (EDA.py)- data types, missing data and the informativeness per column.
+Conducting basic exploratory data analysis in order to have am initial understanding on data quality and integrity.  
+The following charecterizations of the data are explored by a function (EDA.py)- data types, missing data and the informativeness per column.  
 Also the balance between the classes is observed.
 
 ### Preprocessing
-Even though in the tested dataset there's no missing data, as a step a function to replace nulls is run.
-In addition, there's only one numeric column 'Age' and the data  in it is binned via the function 'Data_Binning'.
-As preparation for training models, the string values are replaced by a numeric values by a function.
+Even though in the tested dataset there's no missing data, as a step a function to replace nulls is run.  
+In addition, there's only one numeric column 'Age' and the data  in it is binned via the function 'Data_Binning'.  
+As preparation for training models, the string values are replaced by a numeric values by a function.  
 All of the functions are listed in Preprocessing.py file.
 
 ### Models

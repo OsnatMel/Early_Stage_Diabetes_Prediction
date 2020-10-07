@@ -67,13 +67,13 @@ The metrics were mostly improving from model to model, as follow:
 | Random Forest best_estimator - numeric max_features   | 96.15%| 97.59%| 96.43%|
 | Random Forest best_estimator - log2 as max_features     | 96.92% | 100% | 95.24%|
 
-Comparing the different models shows that the best model was with the next parameters:
-{'bootstrap': True,
- 'max_depth': 8,
- 'max_features': 'auto',
- 'min_samples_leaf': 4,
- 'min_samples_split': 8,
- 'n_estimators': 10}
+##### Comparing the different models shows that the best model was with the next parameters:
+    'bootstrap': True,
+     'max_depth': 8,
+     'max_features': 'auto',
+     'min_samples_leaf': 4,
+     'min_samples_split': 8,
+     'n_estimators': 10
 
 #### Features Importance:
 

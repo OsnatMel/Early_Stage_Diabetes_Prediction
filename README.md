@@ -65,7 +65,7 @@ The metrics were mostly improving from model to model, as follow:
 | Naïve Bayes| 91.54% | 92.94% | 94.05% |
 | Random Forest| 88.46%| 87.91%| 95.24% |
 | Random Forest best_estimator - numeric max_features   | 96.15%| 97.59%| 96.43%|
-| Random Forest best_estimator - log2 as max_features     | 96.92% | 100% | 95.24%|
+| Random Forest best_estimator - auto as max_features     | 96.92% | 100% | 95.24%|
 
 ##### Comparing the different models shows that the best model was with the next parameters:
     'bootstrap': True,
